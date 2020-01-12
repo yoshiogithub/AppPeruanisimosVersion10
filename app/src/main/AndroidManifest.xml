@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.isil.appperuanisimosversion10">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ACTIVIDAD.Botones"></activity>
+        <activity android:name=".ACTIVIDAD.MainActivity_Botones" />
+        <activity android:name=".ACTIVIDAD.Main2Activity_Prueba" />
+        <activity android:name=".ACTIVIDAD.MainActivity_PantallaPrincipal_Admin" />
+        <activity android:name=".ACTIVIDAD.MainActivity_Pedido" />
+        <activity android:name=".ACTIVIDAD.MainActivity_Historial" />
+        <activity android:name=".ACTIVIDAD.MainActivity_Perfil" />
+        <activity android:name=".ACTIVIDAD.MainActivity_PantallaPrincipal" />
+        <activity android:name=".ACTIVIDAD.MainActivity_IngresoDatos" />
+        <activity android:name=".ACTIVIDAD.MainActivity_Buscador" />
+        <activity android:name=".ACTIVIDAD.MainActivity_Bienvenida" />
+        <activity android:name=".ACTIVIDAD.MainActivity_Plato_Cebiche" />
+        <activity android:name=".ACTIVIDAD.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

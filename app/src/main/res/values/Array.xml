@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="opciones">
+        <item>-----------</item>
+        <item>PAPA A LA HUANCAINA</item>
+        <item>ARROZ CON POLLO</item>
+        <item>AJI DE GALLINA</item>
+        <item>CHUPE DE PESCADO</item>
+        <item>ARROZ CON LECHE</item>
+    </string-array>
+</resources>
